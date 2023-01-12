@@ -1,4 +1,5 @@
 import unittest
+import file_with_variable_assignment
 
 class TestStringMethods(unittest.TestCase):
 
@@ -16,5 +17,9 @@ class TestStringMethods(unittest.TestCase):
         with self.assertRaises(TypeError):
             s.split(2)
 
+    def test_my_variable(self):
+        self.assertEqual(file_with_variable_assignment.MY_VARIABLE, "great")
+
+            
 if __name__ == '__main__':
     unittest.main()
