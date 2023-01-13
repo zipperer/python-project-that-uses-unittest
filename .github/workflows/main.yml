@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+    - main
+
+name: example workflow
+jobs:
+  example_job:
+    runs-on: ubuntu
+    steps:
+      - name: my first step
+      - run: python -m unittest file_with_tests.py
+      - shell: bash
+  
