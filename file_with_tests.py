@@ -19,6 +19,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_my_variable(self):
         self.assertEqual(file_with_variable_assignment.MY_VARIABLE, "great")
+        print('message')
 
             
 if __name__ == '__main__':
