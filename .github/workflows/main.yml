@@ -3,7 +3,7 @@ on:
     branches:
     - main
 
-name: example workflow
+name: example workflow to run tests
 jobs:
   example_job:
     runs-on: ubuntu
