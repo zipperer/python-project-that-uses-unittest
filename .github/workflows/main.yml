@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu
     steps:
       - name: my first step
-      - run: python -m unittest file_with_tests.py
-      - shell: bash
+        run: python -m unittest file_with_tests.py
+        shell: bash
   
